@@ -1,0 +1,30 @@
+{
+  "name": "ntumods-server",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --signal SIGHUP --delay 2 ./",
+    "prod": "node ./",
+    "start": "node ./"
+  },
+  "author": "Caleb Tay",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bl": ">=2.2.1",
+    "cheerio": "^1.0.0-rc.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "htmlparser2": "^4.1.0",
+    "http-errors": "^1.8.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
